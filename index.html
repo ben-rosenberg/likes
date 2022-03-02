@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>James Doe | Likes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- TOP NAV BAR -->
+    <div class="top_nav_bar main_width x_center">
+        <h1 class="site_title big_text no_bold">Network</h1>
+    </div>
+    <h1 class="your_feed big_text no_bold">Your Feed</h1>
+
+    <!-- PAGE BODY -->
+    <div class="page_body main_width x_center d_flex_row">
+
+        <!-- USER COLUMN -->
+        <div class="user_column">
+            <div class="user_box d_flex_col borders">
+                <img src="res/user-circle.png" alt="James Doe's profile picture" class="user_avater">
+                <a href="#" class="add_avatar small_text">Add an avatar</a>
+                <h1 class="name_text">James Doe</h1>
+            </div>
+        </div>
+
+        <!-- FEED COLUMN -->
+        <div class="feed_column d_flex_col">
+            <!-- Feed 1 -->
+            <div class="feed_box borders">
+                <div class="feed_info d_flex_row">
+                    <h1 class="name_text">Neil M</h1>
+                    <div class="likes">
+                        <span id="feed1_num">0</span> <span id="feed1_word">likes</span>
+                        <button onclick="like('#feed1_num', '#feed1_word', 0)" class="like_button">Like</button>
+                    </div>
+                </div>
+                <p class="feed_content small_text">I just set up this new Discord bot, let me know what you think. <a href="#">link</a></p>
+            </div>
+            <!-- Feed 2 -->
+            <div class="feed_box borders">
+                <div class="feed_info d_flex_row">
+                    <h1 class="name_text">Nichole K</h1>
+                    <div class="likes">
+                        <span id="feed2_num">12</span> <span id="feed2_word">likes</span>
+                        <button onclick="like('#feed2_num', '#feed2_word', 1)" class="like_button">Like</button>
+                    </div>
+                </div>
+                <p class="feed_content small_text">Just finished my <a href="#">next comic</a>, check it out.</p>
+            </div>
+            <!-- Feed 3 -->
+            <div class="feed_box borders">
+                <div class="feed_info d_flex_row">
+                    <h1 class="name_text">Jim R</h1>
+                    <div class="likes">
+                        <span id="feed3_num">9</span> <span id="feed3_word">likes</span>
+                        <button onclick="like('#feed3_num', '#feed3_word', 2)" class="like_button">Like</button>
+                    </div>
+                </div>
+                <p class="feed_content small_text">I can't stop listening to the <a href="#">new album</a>.<br>Who else is liking it?</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

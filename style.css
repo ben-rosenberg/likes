@@ -1,0 +1,134 @@
+/* BROWSWER RESET */
+
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: cursive;
+}
+
+
+/* GLOBABL LIBRARY STYLING */
+
+
+.main_width {
+    width: 70%;
+}
+
+.big_text {
+    font-size: 36pt;
+}
+
+.small_text {
+    font-size: 24pt;
+}
+
+.name_text {
+    font-size: 32pt;
+    font-weight: normal;
+}
+
+.borders {
+    border: 5px solid black;
+}
+
+.no_bold {
+    font-weight: normal;
+}
+
+.x_center {
+    margin: 0 auto;
+}
+
+.d_flex_row {
+    display: flex;
+    gap: 50px;
+}
+
+.d_flex_col {
+    display: flex;
+    flex-direction: column;
+    gap: 50px
+}
+
+
+/* TOP NAV BAR */
+
+
+.top_nav_bar {
+    background-color: black;
+    padding: 5px 0 10px 0;
+}
+
+.site_title {
+    color: white;
+    margin: 0px 0px 0px 40px;
+    vertical-align: middle;
+}
+
+
+/* BODY HEADING */
+
+
+.your_feed {
+    text-align: center;
+    margin: 15px 0 20px 0;
+}
+
+
+/* USER CARD COLUMN */
+
+
+.user_column {
+    flex: 1;
+}
+
+.user_box {
+    height: 365px;
+    padding: 40px 30px;
+    align-items: center;
+}
+
+.user_avater {
+    height: 128px;
+    width: auto;
+}
+
+
+/* FEED COLUMN */
+
+
+.feed_column {
+    flex: 2;
+    gap: 25px;
+}
+
+.feed_box {
+    padding: 30px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.feed_info {
+    justify-content: space-between;
+}
+
+.likes {
+    font-size: 26pt;
+}
+
+.like_button {
+    margin: 0 0 0 40px;
+    background-color: #ffd966;
+    border: 3px solid black;
+    box-shadow: 5px 5px black;
+    padding: 2px 20px 5px 20px;
+    vertical-align: middle;
+    font-size: 26pt;
+}
+
+.feed_content {
+    padding-right: 60px;
+    flex-wrap: wrap;
+}
